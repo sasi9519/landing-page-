@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+ 
+}
+
+#logo{
+  width:90px;
+  height:60px;
+  margin-left: 13px;
+  margin-top: 8px;
+}
+
+.menu{
+  display:flex;
+  width:100%;
+  height:90px;
+  position: relative;
+  position: fixed;
+  box-shadow: ;
+  z-index: 1;
+
+  top: 0px;
+  box-shadow:0 0 20px gray;
+}
+nav{
+position:absolute;
+right: 350px;
+}
+
+li{
+  margin-right: 50px;
+  margin-top: 10px;
+  word-spacing: 1px;
+  font-weight: bolder;
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 200px;
+  
+}
+li>a{
+  text-decoration: none;
+  color:black;
+}
+.say{
+  position: absolute;
+  right:50px;
+  margin-top:36.4px;
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+}
+
+li:hover{
+  background-color:#86f5b8;
+   color:white;
+ 
+  transition: all ease 0.2;
+
+}
+
+.spidy{
+position:absolute;
+top: 230px;
+left: 90px;
+}
+#spidyimg{
+  
+  width: 480px;
+  height: 370px;
+  border-radius: 20px;
+}
+.para{
+float :right;
+position:absolute;
+bottom:150px;
+left:690px;
+
+}
+.btn{
+  text-decoration: none;
+  color:white;
+ 
+}
+.content{
+  overflow: hidden;
+}
+.btn-background{
+  background-color: #1db096;
+width: 150px;
+height: 50px;
+text-align: center;
+padding-top: 15px;
+border-radius: 20px;
+box-shadow:0 2px 30px 0 #1db096;
+
+
+}
+.btn-background:hover{
+ background-color:#23cdaf;
+   color:white;
+ 
+  transition: all ease 0.2;
+
+}
+
